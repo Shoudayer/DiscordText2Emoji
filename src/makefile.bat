@@ -1,0 +1,1 @@
+pyinstaller emoji.py -i icon.ico --onefile --clean --exclude-module=PyQt5 --exclude-module=tkinter --exclude-module=_bz2 --exclude-module=_ctypes --exclude-module=_hashlib --exclude-module=_lzma --exclude-module=PyQt5.Core --exclude-module=qt5_plugins
